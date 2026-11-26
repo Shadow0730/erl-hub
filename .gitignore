@@ -1,2 +1,11 @@
+# Compiled program outputs
 *.exe
 *.o
+/erl_hub
+/erl_hub_*
+
+# Generated binary runtime records and temporary transaction files
+/transit_logs.bin
+/manifest_audit.bin
+/*.tmp
+/*.bak
